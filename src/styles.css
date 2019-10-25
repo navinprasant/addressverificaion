@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* You can add global styles to this file, and also import other style files */
+
+html, body {
+    height: 100%;
+    margin:0;
+    opacity: 1 !important;
+    background-color:grey;
+    
+}
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    /* background-color: #fff; */
+}
+
+.main-card .mat-card-header-text {
+    width: 100% !important;
+    text-align: center !important;
+}

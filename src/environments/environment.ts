@@ -3,7 +3,13 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  // createUser: 'https://stage.dirolabs.com:8440/Zuul-1.0/organization-2.0/createUser',
+  // getUserKycInfo: 'https://stage.dirolabs.com:8440/Zuul-1.0/User-2.0/getUserKycInfo',
+  // downloadDoucment: 'https://stage.dirolabs.com:8440/Zuul-1.0/uploadKyc-2.0/downloadDoucment'
+  createUser: 'https://prod.dirolabs.com:8443/Zuul-1.0/organization-2.0/createUser',
+  getUserKycInfo: 'https://prod.dirolabs.com:8443/Zuul-1.0/User-2.0/getUserKycInfo',
+  downloadDoucment: 'https://prod.dirolabs.com:8443/Zuul-1.0/uploadKyc-2.0/downloadDoucment'
 };
 
 /*
